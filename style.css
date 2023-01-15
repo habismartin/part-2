@@ -156,23 +156,26 @@ footer div{
     }
     .coles{
         background-image:url(img/Screen\ Shot\ 2023-01-10\ at\ 6.13.40\ AM.png);
-        width: 130px;
-        height: 40px;
+        width: 110px;
+        height: 20px;
         margin-left: 130px;
         margin-top: 20px;
     }
     .qantas{
         background-image:url(img/Screen\ Shot\ 2023-01-10\ at\ 5.53.16\ AM.png);
-        width: 170px;
-        height: 40px;
-        margin-left: 105px;
+        width: 120px;
+        height: 28px;
+        margin-left: 120px;
         margin-top: 70px;
     }
     .estpac{
         background-image:url(img/Screen\ Shot\ 2023-01-10\ at\ 5.54.08\ AM.png);
-        width: 170px;
-        height: 35px;
-        margin-left: 114px;
+        width: 120px;
+        height: 25px;
+        margin-left: 130px;
         margin-top: 140px;
+    }
+    input{
+        font-size: 30px;
     }
 }
