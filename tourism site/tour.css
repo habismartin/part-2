@@ -1,0 +1,440 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+html{
+    size: 100%;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.login{
+    background-color: rgb(244, 187, 0);
+    margin-right: 20px;
+    transition: 0.2s ease-in-out;
+}
+.login:hover{
+    background-color: rgb(210, 123, 0);
+}
+.explore{
+    background-color: rgba(244, 207, 0, 0);
+    border: 1px white solid;
+}
+body{
+    position: relative;
+    background-size: cover;
+    background-image: url("img/bg-img.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.119),rgb(0, 0, 0));
+    background-attachment: fixed;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+#about{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    height: 220vh;
+}
+.bigimg{
+    background-image: url("img/—Pngtree—earth\ travel\ abroad\ travel\ tourism_3943357.png");
+    background-position: center;
+    opacity: 20%;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+}
+.png{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+}
+.log{
+    display: flex;
+    font-size: 20px;
+    color: rgb(255, 162, 0);
+    margin-left: 55px;
+    margin-top: -40px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.menu{
+    margin-top: -30px;
+    margin-left: 96%;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.cancel{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 96%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: none;
+
+}
+.center{
+    text-align: center;
+    justify-content: center; 
+    color: white;
+    margin-top: 120px;
+}
+.welcome{
+    margin-top: 0px;
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+}
+.come{
+    font-size:40px ;
+    font-family: fantasy;
+    padding-bottom: 30px;
+}
+.story{
+    font-weight: bold;
+    font-size:20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+
+.img1{
+    background-image: url("img/00146930-CB22-4577-BBD7-62BCC33D9321.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    margin-left: 46%;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+.img1:hover{
+    margin-top: -10px;
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    background-image: url("img/PHOTO-2023-01-07-13-49-26.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    margin-left: 46%;
+    margin-bottom: 10px;
+}
+.img3{
+    background-image: url("img/PHOTO-2023-01-07-13-50-32.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    margin-left: 46%;
+    margin-bottom: 10px;
+}
+.img4{
+    background-image: url("img/PHOTO-2023-01-09-14-34-12.jpg");
+    height: 100px;
+    width: 100px;
+    border-radius: 80px;
+    margin-left: 46%;
+    margin-bottom: 10px;
+}
+.meet{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: -1000px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+.up{
+    text-align: center;
+    margin-top: -1280px;
+}
+.up div{
+    background-position: center;
+    background-size: cover;
+}
+.about1{
+    margin-bottom: 50px;
+}
+.about2{
+    margin-bottom: 50px;
+}
+.about3{
+    margin-bottom: 50px;
+}
+.about4{
+    margin-bottom: 50px;
+}
+.name1{
+    font-weight: bold;
+}
+.name2{
+    font-weight: bold;
+}
+.name3{
+    font-weight: bold;
+}
+.name4{
+    font-weight: bold;
+}
+.popup{
+    position: absolute;
+    display: none;
+    margin-top: -670px;
+    background-color: rgba(0, 0, 0, 0.805);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content{
+    margin-left: 28%;
+    margin-top: 15%;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+}
+input{
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.close{
+    background-position: center;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 29px -4px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+.signup{
+    background-color: rgb(0, 149, 255);
+    transition: 0.2s ease-in-out;
+}
+.signup:hover{
+    background-color: rgb(0, 113, 170);
+}
+.info{
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+.talk{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border-spacing: 2px;
+}
+.smallinfo{
+    font-weight: lighter;
+    text-align: justify;
+    padding: 30px;
+}
+.dropDown{
+    position: absolute;
+    display: none;
+    margin-left: 86%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.707);
+    width: 150px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.dropDown ul a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s ease-in-out;
+}
+.dropDown ul a li{
+    padding-top: 27px;
+    padding-left: 20px;
+}
+.dropDown ul a:hover{
+    color: rgb(255, 162, 0);
+}
+
+
+.bottom div{
+    display: inline-block;
+    width: 619px;
+    height: 200px;
+    margin-top: 160px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.sites div p{
+    text-align: center;
+    width: 430px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.529);
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 130px;
+}
+.contact{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 21, 51);
+    padding-top: 100px;
+}
+.contact p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(0, 40, 25);
+    padding-top: 100px;
+    margin-left: -4px;
+}
+.social .icons{
+    margin-top: 15px;
+}
+.social .icons i{
+    padding: 10px;
+}
+.social p{
+    margin-top: -162px;
+}
+@media screen and (max-width: 700px){
+    button{
+        width: 230px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .explore{
+        margin-top: 30px;
+        margin-left: -1px;
+    }
+    .menu{
+        margin-top: -36px;
+        margin-left: 85%;
+        font-size: 30px;
+    }
+    .cancel{
+        margin-top: -36px;
+        margin-left: 85%;
+        font-size: 25px;
+    }
+    .dropDown{
+        position: absolute;
+        display: none;
+        margin-left: 5%;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.707);
+        width: 370px;
+        height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    .dropDown ul a li{
+        display: inline-flex;
+        padding-top: 17px;
+        padding-left: 35px;
+    }
+    .about{
+        height: 260vh;
+    }
+    .img1{
+        margin-top: -1020px;
+        margin-left: 37%;
+    }
+    .img2{
+        margin-left: 37%;
+    }
+    .img3{
+        margin-left: 37%;
+    }
+    .img4{
+        margin-left: 37%;
+    }
+    .meet{
+        position: absolute;
+        margin-top: -350px;
+        margin-left: 10px;
+    }
+    .up{
+        text-align: center;
+        margin-top: -1280px;
+    }
+    .popup{
+        margin-top: -897px;
+    }
+    .signup{
+        margin-top: 30px;
+        margin-left: -1px;
+    }
+    .popup-content{
+        margin-left: 7%;
+        margin-top: 37%;
+        width: 300px;
+        height: 370px;
+    }
+    .photo{
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-size: cover;
+    }
+    input{
+        width: 70%;
+        height: 30px;
+    }
+    .close{
+        top: -20px;
+        right: -20px;
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    .talk{
+       padding-left: 19px;
+       padding-right: 19px;
+    }
+}

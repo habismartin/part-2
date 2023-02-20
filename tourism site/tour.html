@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Site</title>
+    <link rel="stylesheet" href="tour.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="box">
+        <div class="logo"><img class="png" src="img/—Pngtree—earth travel abroad travel tourism_3943357.png" alt="logo"></div>
+        <p class="log">Xplore</p>
+        <div class="menu"><i class="bi bi-list"></i></div>
+        <div class="cancel"><i class="bi bi-x-lg"></i></div>
+        <div class="dropDown">
+            <ul>
+                <a href="tour.html"><li>HOME</li></a>
+                <a href="explore.html"><li>SITES</li></a>
+                <a href="#about"><li>ABOUT</li></a>
+            </ul>
+        </div>
+        <div class="center">
+            <p class="welcome">Welcome To Nigeria</p>
+            <p class="come">Come explore our cultural & <br> traditional heritage</p>
+            <p class="story">...A story written in time...</p>
+            <!-- <button class="login" >Login</button> -->
+           <a href="explore.html"><button class="explore">Peak into Lagos</button></a> 
+        </div>
+    </div>
+
+    <div id="about">   
+        <div class="bigimg">    
+     </div> 
+      <div class="up">
+       <p class="meet">Meet The Founders...</p>  
+       <div class="img1"></div>
+       <p class="name1">Habis Martin Chinedu</p>
+       <p class="about1">F/ND3210098</p>
+       <div class="img2"></div>
+       <p class="name2">Dada Oluwa Mayowa</p>
+       <p class="about2">F/ND3210090</p>
+       <div class="img3"></div>
+       <p class="name3">F/ND3210006</p>
+       <p class="about3">Designer</p>
+       <div class="img4"></div>
+       <p class="name4">Akiokpo Udukhomoh Zion</p>
+       <p class="about4">F/ND3210042</p>
+      </div>
+         <p class="info">About</p>
+         <p class="talk">WE BELIEVE THAT THE FOUNDATION TO A BETTER WORLD LIES IN CULTURAL CURIOSITY, OPENNESS AND APPRECIATION. <br> OUR MISSION IS TO BUILD BRIDGES TO CONNECT PEOPLE—ONE CULTURE AT A TIME. <br>  
+         <br>
+          A FEW WORDS FROM OUR FOUNDERS <br>
+        <p class="smallinfo">
+                Having spent our lives over three continents, We've experienced first hand how uniquely rich each culture can be. To us, culture encompasses smiles, songs, scents, dances, stories, question marks, eureka moments and so much more. <br>
+            
+            From these core values, an idea grew in us at the end of 2022 to help other curious and open-minded travelers look beyond the images, myths and stereotypes portrayed on TV and experience for themselves (in safety and comfort) the infinite and wondrous diversity of our world. <br>
+            
+            We organized our first trip to Benin in 2018 to test this idea. After a successful test trip with excellent participant feedback, we confirmed this is an idea worth pursuing and Wademba Travel was born! While we started in Benin, we plan to expand into additional destinations as soon as we are confident our standards of quality, comfort and safety are met for our travelers. <br>
+
+            For now, we base our tourism in Lagos State, Nigeria. As time goes on we will continue to expand and grow. <br>
+            
+            If you're an open-minded traveler, looking for a unique and transformational small group experience, join the family and Xplore. <br>
+            
+            We look forward to Xploring with you!
+            </p>
+         </p>
+     </div>  
+     <div class="bottom">    
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>+234 - 3782 - 567</p>
+            <h4>NO. 3, BLOCK C, <br>APARTMENT B, GBAGADA ESTATE</h4>
+        </div>
+        <div class="social">
+            <h3>Social media</h3>
+            <div class="icons">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+            </div>
+            <p>COPYRIGHT. 2023</p>
+        </div>
+       </div> 
+     <script>
+
+           const menu = document.querySelector(".menu")
+           var dropDown = document.querySelector(".dropDown")
+
+         menu.addEventListener("click",function(){
+                dropDown.style.display = "block"
+                cancel.style.display = "block"
+                menu.style.display = "none"
+           })
+           const cancel = document.querySelector(".cancel")
+           var dropDown = document.querySelector(".dropDown")
+
+         cancel.addEventListener("click",function(){
+                dropDown.style.display = "none"
+                menu.style.display = "block"
+                cancel.style.display = "none"
+           })
+     </script>
+</body>
+</html>
